@@ -9,7 +9,7 @@ window.SGEvent = $.extend(true, window.SGEvent, {
                 icon: "home"
             },
             {
-                title: "About",
+                title: "My Info",
                 onExecute: "#about",
                 icon: "info"
             }
