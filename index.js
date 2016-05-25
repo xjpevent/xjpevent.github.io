@@ -5,7 +5,7 @@ $(function() {
     // DevExpress.devices.current({ platform: "generic" });
     // To customize the Generic theme, use the DevExtreme Theme Builder (http://js.devexpress.com/ThemeBuilder)
     // For details on how to use themes and the Theme Builder, refer to the http://js.devexpress.com/Documentation/Howto/Themes article
-
+    DevExpress.devices.current({ platform: 'ios', version: [7] });
     $(document).on("deviceready", function () {
         navigator.splashscreen.hide();
         if(window.devextremeaddon) {
